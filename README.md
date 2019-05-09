@@ -61,21 +61,7 @@ npm install -g eslint
 ```
 npm install friendly-errors-webpack-plugin --save-dev
 ```
-###目录结构
-***
-<pre>
-├── build              // 构建服务和webpack配置
-├── config             // 项目不同环境的配置
-├── dist               // 项目build目录
-├── index.html         // 项目入口文件
-├── package.json       // 项目配置文件
-├── src                // 生产目录
-│   ├── assets         // 图片资源
-│   ├── common          // 公共的css js 资源
-│   ├── components     // 各种组件
-│   ├── App.vue         // 主页面 
-│   └── main.js        // Webpack 预编译入口
-</pre>
+
 
 ###实现的功能
 ***
